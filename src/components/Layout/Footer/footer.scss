@@ -1,0 +1,18 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  padding-inline: 80px;
+  background-color: #102e50;
+  justify-self: end;
+
+  .footer-links-wrapper {
+    display: flex;
+    gap: 8px;
+
+    .footer-link {
+      color: white;
+    }
+  }
+}
